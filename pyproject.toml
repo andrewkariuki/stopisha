@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "eirene"
 version = "0.1.0"
-description = ""
-authors = ["Andrew Kariuki <andrew.kariuki@wiocc.net>"]
+description = "Cross-Lingual Model for Hate Speech Detection on Twitter: A Case of Swahili and Swahili-English Slang"
+authors = ["Andrew Kariuki <andrew.o.kariuki@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

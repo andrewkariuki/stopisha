@@ -45,6 +45,7 @@ skips = ["B101", "B601"]
 [tool.poetry.dependencies]
 python = "^3.11"
 sphinx = "^6.1.3"
+python-semantic-release = "^7.33.2"
 
 
 [build-system]

@@ -2,5 +2,5 @@
 
 set -euxo pipefail
 
-poetry run isort --profile hug ospinsight tests scripts
-poetry run black ospinsight tests scripts
+poetry run isort --profile hug eirene tests scripts
+poetry run black eirene tests scripts

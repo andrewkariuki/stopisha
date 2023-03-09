@@ -5,4 +5,4 @@ extend-ignore =
     E501
 exclude = _vendored
 per-file-ignores =
-    eirene/__init__.py:F401
+    stopisha/__init__.py:F401

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "eirene"
+name = "stopisha"
 version = "0.0.0"
 description = "Cross-Lingual Model for Hate Speech Detection on Twitter: A Case of Swahili and Swahili-English Slang"
 authors = ["Andrew Kariuki <andrew.o.kariuki@gmail.com>"]
@@ -10,7 +10,7 @@ line-length = 88
 
 [tool.isort]
 profile= "hug"
-src_paths=["eirene","test"]
+src_paths=["stopisha","test"]
 multi_line_output = 3
 include_trailing_comma = true
 force_grid_wrap = 0
@@ -32,7 +32,7 @@ allow_untyped_calls = true
 [tool.semantic_release]
 version_variable = "pyproject.toml:version"
 version_source="tag"
-commit_subject="chore(release): release eirene {version}"
+commit_subject="chore(release): release stopisha {version}"
 branch = "main"
 upload_to_release = true
 patch_without_tag = false

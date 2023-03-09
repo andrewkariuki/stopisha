@@ -23,7 +23,7 @@ publish:
 	@echo "Versioning and publishing package..."
 	poetry run semantic-release version
 	git add .
-	git commit -m "chore(release): release eirene"
+	git commit -m "chore(release): release stopisha"
 	git push --follow-tags
 
 requirements:
